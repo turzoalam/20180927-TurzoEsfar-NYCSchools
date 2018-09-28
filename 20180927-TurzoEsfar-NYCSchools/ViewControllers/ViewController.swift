@@ -22,8 +22,7 @@ class ViewController: UIViewController {
         tableView.estimatedRowHeight = 135
         tableView.rowHeight = UITableViewAutomaticDimension
         
-        let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.viewController = self
+        
     }
     
     override func didReceiveMemoryWarning() {
